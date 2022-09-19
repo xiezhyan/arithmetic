@@ -1,7 +1,7 @@
 package top.zopx.arithmetic.sort;
 
 /**
- * 冒泡排序
+ * 插入排序
  * 0~0 比较
  * 0~1 上变有序
  * 0~2 上变有序
@@ -11,7 +11,7 @@ package top.zopx.arithmetic.sort;
  * @email xiezhyan@126.com
  * @date 2022/09/18 22:46
  */
-public class Code_02_Insert {
+public class Code_03_Insert {
     public static void sort(int[] arr) {
         if (arr == null || arr.length == 1) {
             return;

@@ -38,7 +38,7 @@ public class Code_03_XOR {
             ans ^= arr[i];
         }
 
-        // 此时 ans = a ^ b
+        // 此时 ans = a ^ b   能够得到ans最右侧的1
         int rightOne = ans & (-ans);
         int onlyOne = 0;
         for (int i = 0, size = arr.length; i < size; i++) {

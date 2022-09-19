@@ -26,6 +26,21 @@ public class Code_02_Bubble {
         }
     }
 
+    public static void sort_2(int[] arr) {
+        if (arr == null || arr.length == 1) {
+            return;
+        }
+
+        for (int i = 0; i < arr.length; i++) {
+            // 0 1      2 1   3 2
+            for (int j = 1; j < arr.length - i; j++) {
+                if (arr[j] < arr[j - 1]) {
+                    Util.swap(arr, j, j - 1);
+                }
+            }
+        }
+    }
+
     public static void main(String[] args) {
         int maxValue = 200;
         int time = 100_0000;
@@ -37,7 +52,7 @@ public class Code_02_Bubble {
             arr = Util.randomArr(maxValue, maxLen);
             copyArr = Util.copy(arr);
             Util.sort(copyArr);
-            sort(arr);
+            sort_2(arr);
             if (!Util.isOk(arr, copyArr)) {
                 Util.print(arr);
                 break;
