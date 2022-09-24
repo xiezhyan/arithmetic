@@ -1,7 +1,5 @@
 package top.zopx.arithmetic.sort;
 
-import com.sun.xml.internal.ws.assembler.jaxws.MustUnderstandTubeFactory;
-
 import java.util.Objects;
 
 /**
@@ -9,7 +7,7 @@ import java.util.Objects;
  * @email xiezhyan@126.com
  * @date 2022/09/24 10:23
  */
-public class Code_041_MergeSort_Sum {
+public class Code_04_02_MergeSort_Sum {
 
     /**
      * 每个位置数左边比自己小的数都加起来，得到一个和

@@ -7,7 +7,7 @@ import java.util.Objects;
  * @email xiezhyan@126.com
  * @date 2022/09/24 10:23
  */
-public class Code_041_MergeSort_ReversePair {
+public class Code_04_01_MergeSort_ReversePair {
 
     public static int pair(int[] arr) {
         if (arr == null || arr.length < 1) {
