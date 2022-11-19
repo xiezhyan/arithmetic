@@ -4,8 +4,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	
-	<groupId>top.zopx.arithmetic.bit</groupId>
-	<artifactId>_01_</artifactId>
+	<parent>
+		<groupId>top.zopx.arithmetic</groupId>
+		<artifactId>arithmetic</artifactId>
+		<version>1.0-SNAPSHOT</version>
+	</parent>
+	
+	<artifactId>_01_bit</artifactId>
 	<version>1.0-SNAPSHOT</version>
 	
 	<properties>
